@@ -1,8 +1,8 @@
 <div
   class="pensamento
   {{ pensamento.modelo }}
-  ff-roboto-mono
-  pensamento-p"
+  ff-roboto-mono "
+  [ngClass]="larguraPensamento()"
 >
   <img
     src="../../../../assets/imagens/{{ pensamento.modelo }}.png"

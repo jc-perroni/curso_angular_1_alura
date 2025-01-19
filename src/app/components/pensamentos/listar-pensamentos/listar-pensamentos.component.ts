@@ -17,6 +17,12 @@ export class ListarPensamentosComponent implements OnInit {
       autoria: 'Componente filho',
       modelo: 'modelo3',
     },
+    {
+      conteudo:
+        'ipsum lorem ipsen lorem ipsen lorem ipsen lorem ipsen lorem ipsen lorem ipsen lorem ipsen lorem ipsen lorem ipsen lorem ipsen lorem ipsen lorem ipsen lorem ipsen lorem ipsen lorem ipsen lorem ipsen lorem ipsen lorem ipsen lorem ipsen lorem ipsen lorem ipsen lorem ipsen lorem ipsen lorem ipsen lorem',
+      autoria: 'Componente filho',
+      modelo: 'modelo3',
+    },
   ];
 
   constructor() {}
